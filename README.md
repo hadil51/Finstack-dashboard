@@ -36,14 +36,12 @@ cd client && npm run dev
 
 Open **http://localhost:5173**
 
-## Production Build
+Or run both servers together from the project root:
 
 ```bash
-cd client && npm run build
-cd ../server && set NODE_ENV=production && npm start
+npm install
+npm run dev
 ```
-
-The server serves the built React app from `client/dist` on port 5000.
 
 ## Optional MongoDB
 
