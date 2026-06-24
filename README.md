@@ -78,13 +78,3 @@ Without MongoDB, the app runs with in-memory data that persists for the server s
 | POST | /api/ai | AI assistant |
 | GET | /api/health | Health check |
 
-## Demo Recording Tips
-
-1. Start both servers, open Dashboard at `http://localhost:5173`
-2. Click **Deposit** → enter amount → Confirm (balance updates)
-3. Navigate sidebar pages — each section is fully interactive
-4. Use **Ask AI** → "What is my balance?"
-5. **Transactions** → Add, edit, filter, sort, delete
-6. **Invoices** → Create → Send → Mark Paid
-7. **Payment Links** → Create → Copy link
-8. Toggle **dark mode** from sidebar footer
